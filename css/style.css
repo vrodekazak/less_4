@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:regular');
+/* font-family: 'Barlow Condensed', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:regular');
+
+/* font-family: 'Josefin Slab', serif; */
+@font-face {
+	font-family: 'Gill Sans Nova Inline';
+	src: url('../fonts/GillSansNovaInline-Bold.woff2') format('woff2'),
+		url('../fonts/GillSansNovaInline-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	/* font-family: "Gilroy", sans-serif; */
+	line-height: 1;
+}
+
+/* нужен шрифт  1)для заголовков через woff/woff2 2) шрифт для текста link/import google fonts 
+ */
+/* картинки поставить в блоки чтобы сделать text align centr*/
+/* абзац в футере сделать с другим классом/стилем */
+h1 {
+	font-family: 'Gill Sans Nova Inline', serif;
+	font-size: 40px;
+	text-align: center;
+	color: rgb(162, 131, 221);
+	text-shadow: 10px 3px 3px rgb(226, 176, 210);
+}
+
+.titles {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 35px;
+	text-align: right;
+	text-shadow: -10px -5px 1px rgb(123, 133, 179)
+}
+
+.centrtext .text {
+	text-align: center;
+	word-spacing: 15px;
+	color: #ff5100;
+	line-height: 15px;
+}
+
+.text {
+	font-family: 'Josefin Slab', serif;
+	line-height: 30px;
+	font-size: 20px;
+
+}
+
+.centr_pic {
+	text-align: center;
+}
+
+footer {
+	color: #0000ff;
+	font-size: 25px;
+}
+
+.greentext {
+	color: rgb(89, 156, 66);
+	font-style: oblique;
+	text-align: right;
+}
+
+.bluetext {
+	color: rgb(111, 111, 182);
+	text-align: left;
+	text-shadow: -10px -5px 1px rgb(136, 138, 37)
+}
+
+.vegastext {
+	color: #b93e67;
+	text-align: right;
+	text-decoration: overline;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	text-shadow: 3px 5px 1px rgb(85, 16, 73);
+}
+
+.letters {
+	color: #ff5100;
+	letter-spacing: 3px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.captext {
+	text-transform: capitalize;
+	text-shadow: 2px 3px 1px #b93e67;
+	text-align: center;
+}
+
+.no_readtext {
+	line-height: 6px;
+	color: #ee82ee;
+	font-size: 30px;
+}
+
+.oneline {
+	text-indent: 130px;
+	white-space: nowrap;
+	font-size: 50px;
+	text-shadow: -20px 3px 1px rgb(112, 212, 212);
+}
